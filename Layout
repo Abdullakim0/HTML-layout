@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>title</title>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<style>
+*{box-sizing:box-border;
+}
+body{font-family:arial, sans-serif;
+}
+header{
+background-color:#ccc;
+text-align:center;
+padding:10px;
+font-size:30px;
+color:white;
+}
+section{
+display:-wiki-flex;
+display:flex;
+}
+nav{
+-wiki-flex:1;
+-ms-flex:1;
+flex:1;
+background-color:#f1f1;
+padding:20px;
+}
+nav ul{list-style-type:None;
+padding:0;
+}
+article{
+-wiki-flex:3;
+-ms-flex:3;
+flex:3;
+background-color:#555;
+padding:10px;
+}
+footer{
+text-align:center;
+color:white;
+background-color:blue;
+padding:10px;
+}
+@media(max-width:600px){
+section{
+-wiki-flex-direction:column;
+flex-direction:column;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<h2>Cities</h2>
+</header>
+<section>
+<nav>
+<ul>
+<li><a href='w'>Paris</a></li>
+<li><a href='w'>Paris</a></li>
+<li><a href='w'>Paris</a></li>
+</ul>
+</nav>
+<article>
+<h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</article>
+</section>
+<footer>
+<p>&copy; say my name</p>
+</footer>
+</body>
+</html>
+
